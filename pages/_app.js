@@ -1,19 +1,20 @@
 // Next Imports
 import Head from 'next/head'
-import Script from "next/script"
+import Script from 'next/script'
 // React Imports
+import React from 'react'
 import { useEffect } from 'react'
 // Import CSS
 import '../styles/globals.css'
 // Import Bootstrap
-import "bootstrap/dist/css/bootstrap.min.css"
+import 'bootstrap/dist/css/bootstrap.min.css'
 // Custom Imports 
 import Layout from '../components/layout'
 
 function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
-    import("bootstrap/dist/js/bootstrap");
+    import('bootstrap/dist/js/bootstrap');
   }, [])
 
   return (
